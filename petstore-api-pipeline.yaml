@@ -191,7 +191,7 @@ Resources:
           Fn::Sub: ${AWS::StackName}-petstore-api-stack-codebuild-project
       Environment:
         Type: LINUX_CONTAINER
-        ComputeType: BUILD_GENERAL1_SMALL
+        ComputeType: BUILD_GENERAL2_SMALL
         Image: aws/codebuild/nodejs:16
       Source:
         Location: !Join
