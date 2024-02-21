@@ -8,6 +8,6 @@ phases:
                                    --s3-prefix api-code
                                    --output-template-file petstore-api-output.yaml
 artifacts:
-  type: zip
+  #type: zip
   files:
     - 01api/petstore-api-output.yaml
