@@ -12,7 +12,7 @@ phases:
       - npm install -g newman
       - yum install -y jq
       - newman -v
-      - postman -v
+      #- postman -v
       - npm fund
 
   pre_build:
