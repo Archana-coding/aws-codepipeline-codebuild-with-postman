@@ -29,7 +29,7 @@ phases:
       - newman run seccol.postman_collection.json
       - newman run PetStoreAPI.postman_collection.json --environment PetStoreAPIEnvironment.postman_environment.json
       - newman run PetStoreAPI.postman_collection.json --environment PetStoreAPIEnvironment.postman_environment.json -r junit
-      - npm -g newman-reporter-htmlextra
+      - npm install -g newman-reporter-htmlextra
       - newman run PetStoreAPI.postman_collection.json --environment PetStoreAPIEnvironment.postman_environment.json -r htmlextra
       - ls -lasht
       - cd newman
