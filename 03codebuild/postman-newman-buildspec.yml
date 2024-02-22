@@ -33,7 +33,7 @@ phases:
       - cd newman
       - ls -lasht
       - aws s3 cp --recursive newman/ "s3://${S3_BUCKET}/Reports"
-      - cat SurefireReports
+ 
       
 
 reports:
