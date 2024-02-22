@@ -32,7 +32,7 @@ phases:
       - ls -lasht
       - cd newman
       - ls -lasht
-      - aws s3 cp -r newman/ "s3://${S3_BUCKET}/Reports"
+      - aws s3 cp --recursive newman/ "s3://${S3_BUCKET}/Reports"
       - cat SurefireReports
       
 
