@@ -30,9 +30,9 @@ phases:
       - newman run PetStoreAPI.postman_collection.json --environment PetStoreAPIEnvironment.postman_environment.json
       - newman run PetStoreAPI.postman_collection.json --environment PetStoreAPIEnvironment.postman_environment.json -r junit
       - ls -lasht
-      - cd 02postman/newman
+      - cd newman
       - ls -lasht
-      - aws s3 cp -r 02postman/newman "s3://${S3_BUCKET}/Reports"
+      - aws s3 cp -r newman/ "s3://${S3_BUCKET}/Reports"
       - cat SurefireReports
       
 
