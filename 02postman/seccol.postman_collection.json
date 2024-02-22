@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "4ec4e676-3020-4843-a9f5-b8ea2e54c822",
+		"name": "firstcol",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33141948"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+                                "url": "https://kap1p2t0vc.execute-api.ap-south-1.amazonaws.com/prod/pets/",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
